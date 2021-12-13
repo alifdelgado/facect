@@ -20,6 +20,8 @@ Route::middleware('auth:sanctum')->group(function() {
         return $request->user();
     });
 
+    Route::get('/users/{post}', [PostController::class, 'show'])->name('api.users.show');
+    Route::get('/posts', [PostController::class, 'index'])->name('api.posts.index');
     Route::get('/posts/{post}', [PostController::class, 'show'])->name('api.posts.show');
     Route::post('/posts', [PostController::class, 'store'])->name('api.posts.create');
 });
