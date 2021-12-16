@@ -4,8 +4,7 @@
         <Nav />
         <div class="flex flex-1 overflow-auto">
             <Sidebar />
-            <div class="w-2/3 overflow-x-hidden">
-            </div>
+            <NewsFeed />
         </div>
     </div>
 </template>
@@ -15,13 +14,15 @@
     import { Head, Link } from '@inertiajs/inertia-vue3';
     import Nav from '../Shared/Nav';
     import Sidebar from '../Shared/Sidebar';
+    import NewsFeed from './News/NewsFeed';
 
     export default defineComponent({
         components: {
             Head,
             Link,
             Nav,
-            Sidebar
+            Sidebar,
+            NewsFeed
         },
     })
 </script>
