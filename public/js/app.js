@@ -24544,10 +24544,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 var _hoisted_1 = {
-  "class": "text-white bg-dark"
+  "class": "w-2/3 p-4 bg-white rounded shadow"
 };
+
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex items-center justify-between\"><div><div class=\"w-8\"><i class=\"fas fa-user-circle fa-2x\"></i></div></div><div class=\"flex-1 mx-4\"><input type=\"text\" name=\"body\" class=\"w-full h-8 pl-4 text-sm bg-gray-200 rounded focus:outline-none focus:shadow-outline\" placeholder=\"Add a post\"></div><div><button type=\"button\" class=\"flex items-center justify-center w-10 h-10 bg-gray-200 rounded-full\"><i class=\"fas fa-image fa-xl\"></i></button></div></div>", 1);
+
+var _hoisted_3 = [_hoisted_2];
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, " dfkjdsjf ");
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, _hoisted_3);
 }
 
 /***/ }),
