@@ -1,5 +1,4 @@
 <template>
-    <!-- <Head title="Welcome" /> -->
     <div class="h-screen bg-gray-200">
         <Nav />
         <div class="flex flex-1 overflow-auto">
@@ -23,6 +22,6 @@
             Nav,
             Sidebar,
             NewsFeed
-        },
-    })
+        }
+    });
 </script>
